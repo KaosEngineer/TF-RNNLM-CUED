@@ -1,0 +1,13 @@
+model_type: dnn_grader
+n_in: 33
+n_hid: 180
+n_z: 10
+n_layers: 2
+n_not_tied: 0
+n_out: 1
+n_L1: 113
+activation_fn: relu
+intializer: xavier
+L2: 4e-7
+BN: False
+L1: False
